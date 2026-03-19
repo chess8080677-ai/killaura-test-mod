@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "killaura-test-mod",
+  "version": "${version}",
+  "name": "KillAura Test Mod",
+  "description": "Anti-cheat testing mod",
+  "entrypoints": {
+    "client": ["com.testmod.killaura.KillAuraMod"]
+  },
+  "mixins": ["killaura-test-mod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1"
+  }
+}
